@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+		 xmlns:NC="http://home.netscape.com/NC-rdf#"
+		 xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<RDF:Description RDF:about="rdf:#$vWkPU"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+				   em:type="2"
+                   em:minVersion="4.0"
+                   em:maxVersion="7.*" />
+	<RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{db09811d-efff-4339-a548-8550c7238a30}"
+                   em:name="Team Liquid Streams"
+                   em:version="0.1.6"
+                   em:creator="cepheusSC"
+                   em:description="Will list all currently active streams from TeamLiquid.net in a sidebar for your convenience. Will display amount of viewers, stream type and races played and allow multi-ordering on several criteria. Allows users to tag streams as favourites and provides convenient access to these through a toolbar button. It will periodically synchronize the streams with those on the teamliquid.net server and notify if any favourite streamers are online. If unwanted, this feature can be disabled in the options menu. This add-on is based on the work of xocekim and Fyresoul on TeamLiquid with permission."
+                   em:optionsURL="chrome://tlstreams/content/options.xul"
+                   em:iconURL="chrome://tlstreams/skin/icon60px.png">
+		<em:targetApplication RDF:resource="rdf:#$vWkPU"/>
+	</RDF:Description>
+</RDF:RDF>

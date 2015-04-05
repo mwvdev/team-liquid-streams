@@ -1,2 +1,4 @@
-# team-liquid-streams
-Will list all currently active streams from TeamLiquid.net in a sidebar for your convenience.
+# Team Liquid Streams
+Will list all currently active streams from [TeamLiquid.net](http://teamliquid.net) in a sidebar in Firefox for your convenience. Will display amount of viewers, stream type and races played and allow multi-ordering on several criteria. Allows users to tag streams as favourites and provides convenient access to these through a toolbar button. It will periodically synchronize the streams with those on the [teamliquid.net](http://teamliquid.net) server and notify if any favourite streamers are online. If unwanted, this feature can be disabled in the options menu. This add-on is based on the work of [xocekim](http://www.teamliquid.net/forum/viewmessage.php?topic_id=189489) and [Fyresoul](http://www.teamliquid.net/forum/viewmessage.php?topic_id=205002) on TeamLiquid with permission.
+
+This firefox plugin is available at the [Firefox Add-ons repository](https://addons.mozilla.org/firefox/addon/team-liquid-streams/).

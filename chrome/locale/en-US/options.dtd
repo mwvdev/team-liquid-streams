@@ -1,0 +1,15 @@
+<!ENTITY prefwindow.title "TL Streams preferences">
+<!ENTITY prefwindowpane.title "TL Streams Preferences ">
+<!ENTITY favouritespref.label "Show favourites column">
+<!ENTITY streamspref.label "Show streams column">
+<!ENTITY typespref.label "Show types column">
+<!ENTITY featuredspref.label "Show featured column">
+<!ENTITY racespref.label "Show races column">
+<!ENTITY viewerspref.label "Show viewers column">
+<!ENTITY groupboxcolumns.label "Column visibility">
+<!ENTITY groupboxfavourites.label "Favourites">
+<!ENTITY groupboxnetwork.label "Network">
+<!ENTITY querytime.label "Update interval (in minutes):">
+<!ENTITY periodicupdatepref.label "Periodic Updates">
+<!ENTITY popupspref.label "Display popup notifications">
+<!ENTITY statusfavouritespref.label "Show favourites in status bar">

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://tlstreams/skin/overlay.css" type="text/css"?>
+<!DOCTYPE page SYSTEM "chrome://tlstreams/locale/overlay.dtd">
+
+<page id="tlstreamsSidebar" title="&tlstreamsSidebar.label;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="ff-sidebar.js"/>
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="tlstreams-strings" src="chrome://tlstreams/locale/overlay.properties"/>
+	</stringbundleset>
+	
+	<vbox flex="1">
+		<iframe flex="1" id="tlContents" type="content" src="chrome://tlstreams/content/template.html" />
+	</vbox>
+</page>

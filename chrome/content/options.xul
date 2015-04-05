@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://tlstreams/locale/options.dtd">
+<prefwindow id="tlstreams-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+	<prefpane id="prefwindowpane" label="&prefwindowpane.title;">
+		<preferences>
+			<preference id="showFavourites" name="extensions.tlstreams.columns.showFavourites" type="bool"/>
+			<preference id="showStreams" name="extensions.tlstreams.columns.showStreams" type="bool"/>
+			<preference id="showTypes" name="extensions.tlstreams.columns.showTypes" type="bool"/>
+			<preference id="showFeatured" name="extensions.tlstreams.columns.showFeatured" type="bool"/>
+			<preference id="showRaces" name="extensions.tlstreams.columns.showRaces" type="bool"/>
+			<preference id="showViewers" name="extensions.tlstreams.columns.showViewers" type="bool"/>
+			<preference id="showViewers" name="extensions.tlstreams.columns.showViewers" type="bool"/>
+			<preference id="showPopups" name="extensions.tlstreams.showPopups" type="bool"/>
+			<preference id="showStatusFavourites" name="extensions.tlstreams.showStatusFavourites" type="bool"/>
+			<preference id="periodicUpdate" name="extensions.tlstreams.periodicUpdate" type="bool"/>
+			<preference id="queryTime" name="extensions.tlstreams.queryTime" type="int"/>
+		</preferences>
+		<hbox flex="1">
+			<groupbox>
+				<caption label="&groupboxcolumns.label;"/>
+				<checkbox label="&favouritespref.label;" preference="showFavourites"/>
+				<checkbox label="&streamspref.label;" preference="showStreams"/>
+				<checkbox label="&typespref.label;" preference="showTypes"/>
+				<checkbox label="&featuredspref.label;" preference="showFeatured"/>
+				<checkbox label="&racespref.label;" preference="showRaces"/>
+				<checkbox label="&viewerspref.label;" preference="showViewers"/>
+			</groupbox>
+			<vbox flex="1">
+				<groupbox>
+					<caption label="&groupboxfavourites.label;"/>
+					<checkbox label="&popupspref.label;" preference="showPopups"/>
+					<checkbox label="&statusfavouritespref.label;" preference="showStatusFavourites"/>
+				</groupbox>
+				<groupbox>
+					<caption label="&groupboxnetwork.label;"/>
+					<checkbox label="&periodicupdatepref.label;" preference="periodicUpdate"/>
+					<label value="&querytime.label;" control="query-time-textbox"/>
+					<textbox id="query-time-textbox" type="number" min="10" preference="queryTime" />
+				</groupbox>
+			</vbox>
+		</hbox>
+	</prefpane>
+</prefwindow>

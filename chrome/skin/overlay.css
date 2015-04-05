@@ -1,0 +1,19 @@
+#tlstreams-toolbar-button
+{
+	list-style-image: url("chrome://tlstreams/skin/icon16.png");
+}
+.popup-notification-icon[popupid="favourites-popup"] {
+	list-style-image: url("chrome://tlstreams/skin/icon60px.png");
+}
+#status-bar-favourites-icon
+{
+	list-style-image: url("chrome://tlstreams/skin/icon16.png");
+}
+#tlstreams-toolbar-button menuitem
+{
+	list-style-image: url("chrome://tlstreams/skin/favourite_on.png");
+}
+#tlstreams-toolbar-button menuitem[disabled=true]
+{
+	list-style-image: url("chrome://tlstreams/skin/favourite_off.png");
+}

@@ -1,0 +1,9 @@
+component {444ec8fb-17c4-47c8-8ac1-c4b17a8f4fee} components/StreamBackend.js
+contract @teamliquid.streams.for.firefox/streambackend;1 {444ec8fb-17c4-47c8-8ac1-c4b17a8f4fee}
+
+content   tlstreams                 chrome/content/
+skin      tlstreams   classic/1.0   chrome/skin/
+locale    tlstreams   en-US         chrome/locale/en-US/
+
+overlay   chrome://browser/content/browser.xul   chrome://tlstreams/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://tlstreams/skin/overlay.css
